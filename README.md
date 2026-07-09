@@ -4,7 +4,8 @@
 
 # CvPL - Cervus Public Licence
 
-**Cervus Public License** (CvPL) is a specialized weak copyleft license designed specifically for the ecosystem of the Cervus OS operating system.
+**Cervus Public License** (CvPL 1.0) is a specialized weak copyleft license designed specifically for the ecosystem of the [Cervus](https://github.com/VeoQeoOrg/Cervus) operating system.
+
 
 ---
 
