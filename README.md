@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/CVPL.svg" alt="CvPL Logo" width="300">
+  <img src="CVPL.svg" alt="CvPL Logo" width="300">
 </p>
 
 # CVPL - Cervus Public Licence
