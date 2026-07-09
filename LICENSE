@@ -1,56 +1,173 @@
-Cervus Public License (CvPL)
-Version 1.0, June 2026
-Copyright (c) VeoQeo, hewlets and contributors.
+CERVUS PUBLIC LICENSE (CvPL)
+Version 1.1, July 2026
+Copyright (c) VeoQeo, hewlets and Contributors.
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-1. DEFINITIONS
-"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by this document.
+0. DEFINITIONS
 
-"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+"License" shall mean the terms and conditions for use, reproduction, and
+distribution as defined by this document.
 
-"The Software" means the original work of authorship protected by copyright and distributed under this License, including all source code files and binaries.
+"Licensor" shall mean the copyright owner or entity authorized by the
+copyright owner that is granting the License.
 
-"Modifications" means any addition to, deletion from, or change to the substance or structure of the existing source code files of the Software.
+"You" (or "Your") shall mean an individual or Legal Entity exercising
+permissions granted by this License.
 
-"Independent Modules" shall mean separate, independent software components, applications, or hardware drivers that are not Modifications of the Software's original source files.
+"The Software" means the original work of authorship protected by
+copyright and distributed under this License, including all source code
+files and binaries.
 
-"Combined Work" shall mean a broader software system or hardware-software integration created by combining, interfacing, or linking the Software with Independent Modules.
+"Modifications" means any addition to, deletion from, or change to the
+substance or structure of the existing source code files of the Software.
 
-"Source File-Level Copyleft" means that any Modifications made directly to the existing source code files of the Software must be governed exclusively by this License.
+"Corresponding Source" means the preferred form of the work for making
+modifications to it, including all scripts, build files, interface
+definition files, and documentation necessary to compile, install, and
+execute the Software from its source code. For a Combined Work, it
+includes the Corresponding Source of the Software portion, but not the
+Independent Modules unless they are themselves Modifications.
+
+"Standard Public Software Repository" means a publicly accessible online
+code hosting service (such as GitHub, GitLab, or Bitbucket) that provides
+free, anonymous read access via standard version control protocols (e.g.,
+Git) and standard web protocols (HTTP/HTTPS). The repository must be
+accessible without authentication for the sole purpose of downloading the
+Corresponding Source.
+
+"Contribution" shall mean any original work of authorship, including any
+Modifications, that is intentionally submitted to the Licensor or
+maintainers for inclusion in the Software.
+
+"Independent Modules" shall mean separate, independent software
+components, applications, or hardware drivers that are not Modifications
+of the Software's original source files.
+
+"Combined Work" shall mean a broader software system or hardware-software
+integration created by combining, interfacing, or linking the Software
+with Independent Modules.
+
+"Source File-Level Copyleft" means that any Modifications made directly
+to the existing source code files of the Software must be governed
+exclusively by this License.
+
+1. GRANT OF RIGHTS AND SUBLICENSING
+Subject to the terms and conditions of this License, the Licensor hereby
+grants You a worldwide, royalty-free, non-exclusive, perpetual,
+irrevocable (except as stated in Section 8) license to use, reproduce,
+prepare Modifications of, publicly display, publicly perform, distribute,
+and sublicense the Software.
 
 2. SOURCE FILE-LEVEL COPYLEFT OBLIGATIONS
-If You distribute or otherwise make available the Software or any Modifications, You must make the corresponding source code of the Software and such Modifications available in a machine-readable format via standard public software repositories for a period of no less than three years following the distribution of the binaries. This obligation applies regardless of whether the Software is distributed standalone, integrated into a larger work, or embedded in hardware.
+If You distribute or otherwise make available the Software or any
+Modifications, You must make the Corresponding Source of the Software and
+such Modifications available in a machine-readable format via Standard
+Public Software Repositories for a period of no less than three years
+following the distribution of the binaries. This obligation applies
+regardless of whether the Software is distributed standalone, integrated
+into a larger work, or embedded in hardware.
+
 3. EXPLICIT EXCEPTION FOR COMBINED WORKS AND INTERFACING
-a) Definition of Combined Work: For the purposes of this Section, a "Combined Work" is a broader software system or hardware-software integration created by combining or linking the Software with separate, independent software modules, applications, or hardware drivers ("Independent Modules") that are not Modifications of the Software's original source files.
+a) Definition of Combined Work: For the purposes of this Section, a
+"Combined Work" is a broader software system or hardware-software
+integration created by combining or linking the Software with separate,
+independent software modules, applications, or hardware drivers
+("Independent Modules") that are not Modifications of the Software's
+original source files.
 
-b) Grant of Exception: As an explicit exception to the Source File-Level Copyleft obligations in Section 2, the Licensor grants You permission to create, distribute, and execute Combined Works, and to link, compile, or interface the Software with Independent Modules, regardless of the license terms governing those Independent Modules.
+b) Grant of Exception: As an explicit exception to the Source File-Level
+Copyleft obligations in Section 2, the Licensor grants You permission to
+create, distribute, and execute Combined Works, and to link, compile, or
+interface the Software with Independent Modules, regardless of the
+license terms governing those Independent Modules.
 
-c) Scope of Permitted Interfacing: This exception applies to, but is not limited to:
+c) Scope of Permitted Interfacing: This exception applies to, but is not
+limited to:
+* Interfacing via system calls (syscalls), Application Binary Interfaces
+(ABI), or Application Programming Interfaces (API).
+* Static linking, dynamic linking, or memory execution of Independent
+Modules alongside the Software within the same address space or system
+architecture.
+* The inclusion of unmodified header files from the Software into
+Independent Modules solely to enable compilation, data structure
+alignment, and structural interfacing.
 
-* Interfacing via system calls (syscalls), Application Binary Interfaces (ABI), or Application Programming Interfaces (API).
-* Static linking, dynamic linking, or memory execution of Independent Modules alongside the Software within the same address space or system architecture.
-* The inclusion of unmodified header files from the Software into Independent Modules solely to enable compilation, data structure alignment, and structural interfacing.
-
-d) License Boundary: The creation or distribution of a Combined Work does not extend the Source File-Level Copyleft obligations of this License to the Independent Modules. You may distribute Independent Modules under any license of Your choosing, including proprietary terms. However, any Modifications made directly to the source code files of the Software must still be made available under the exact terms of this License pursuant to Section 2.
+d) License Boundary and Multiple Licenses: The creation or distribution
+of a Combined Work does not extend the Source File-Level Copyleft
+obligations of this License to the Independent Modules. Independent
+Modules may be distributed under any license of Your choosing. If
+Independent Modules are subject to separate licenses, You must ensure
+that the terms of those licenses do not contradict or impose additional
+restrictions on the Software beyond those contained in this License. The
+boundary between the Software and Independent Modules shall be strictly
+observed.
 
 4. HARDWARE DEPLOYMENT AND DECOUPLING
-This License does not impose restrictions on the deployment or execution of the Software within embedded systems or hardware devices with restricted modification access (e.g., secure boot environments).
+This License does not impose restrictions on the deployment or execution
+of the Software within embedded systems or hardware devices with
+restricted modification access (e.g., secure boot environments).
 
-The Licensor explicitly waives any implied obligation requiring You to provide end-users with cryptographic keys, authorization codes, or hardware-specific methods necessary to install modified versions of the Software, provided that the Source File-Level Copyleft obligations for the Software's source code are fully satisfied.
+The Licensor explicitly waives any implied obligation requiring You to
+provide end-users with cryptographic keys, authorization codes, or
+hardware-specific methods necessary to install modified versions of the
+Software, provided that the Source File-Level Copyleft obligations for
+the Software's Corresponding Source are fully satisfied.
 
 5. BALANCED PATENT GRANT AND RETALIATION
-Subject to the terms and conditions of this License, each contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Software.
+Subject to the terms and conditions of this License, each Contributor
+hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
+royalty-free, irrevocable (except as stated in Section 8) patent license
+to make, have made, use, offer to sell, sell, import, and otherwise
+transfer the Software. This patent grant applies only to patent claims
+licensable by such Contributor that are necessarily infringed by their
+Contribution(s) alone or by combination of their Contribution(s) with the
+Software to which such Contribution(s) was submitted.
 
+This patent grant applies exclusively to the Software and does not extend
+to Independent Modules.
 
+If You institute patent litigation against any entity (including a
+cross-claim or counterclaim in a lawsuit) alleging that the Software
+constitutes direct or contributory patent infringement, then any patent
+licenses granted to You under this License for the Software shall
+terminate automatically as of the date such litigation is filed.
 
-This patent grant applies exclusively to the Software and does not extend to Independent Modules.
+6. CONTRIBUTIONS
+Unless You explicitly state otherwise, any Contribution intentionally
+submitted by You to the Licensor for inclusion in the Software shall be
+under the terms and conditions of this License, without any additional
+terms or conditions. You represent that each of Your Contributions is
+Your original creation and that You have the right to grant the rights
+set forth in this License.
 
-If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Software constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for the Software shall terminate automatically as of the date such litigation is filed.
+7. TRADEMARKS
+This License does not grant permission to use the trade names,
+trademarks, service marks, or product names of the Licensor or any
+Contributor, except as required for reasonable and customary use in
+describing the origin of the Software and reproducing the content of the
+copyright notice.
 
-6. COPYRIGHT NOTICE
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+8. TERMINATION
+This License and the rights granted hereunder will terminate
+automatically upon Your breach of any of its material terms.
 
+However, if You cure the breach within thirty (30) days of becoming aware
+of it, the License shall be reinstated.
 
-7. DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Termination of Your rights does not terminate the licenses of any party
+who has received copies of the Software from You under this License,
+provided such parties remain in full compliance.
+
+9. COPYRIGHT NOTICE
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+10. DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
