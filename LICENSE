@@ -22,6 +22,11 @@ files and binaries.
 "Modifications" means any addition to, deletion from, or change to the
 substance or structure of the existing source code files of the Software.
 
+"Distribute" (or "Distribution") means to convey, sell, or otherwise make
+copies of the Software available to a third party, excluding making the
+Software accessible solely for use via a remote network interface (e.g.,
+as a service).
+
 "Corresponding Source" means the preferred form of the work for making
 modifications to it, including all scripts, build files, interface
 definition files, and documentation necessary to compile, install, and
@@ -47,12 +52,11 @@ of the Software's original source files.
 integration created by combining, interfacing, or linking the Software
 with Independent Modules.
 
-1. GRANT OF RIGHTS AND SUBLICENSING
+1. GRANT OF RIGHTS
 Subject to the terms and conditions of this License, the Licensor hereby
 grants You a worldwide, royalty-free, non-exclusive, perpetual,
 irrevocable (except as stated in Section 8) license to use, reproduce,
-prepare Modifications of, publicly display, publicly perform, distribute,
-and sublicense the Software.
+modify, publicly display, publicly perform, and distribute the Software.
 
 2. SOURCE CODE AVAILABILITY
 If You distribute the Software in object code form, You must ensure that
@@ -66,7 +70,10 @@ Corresponding Source; or
 c) Make the Corresponding Source publicly available via a Standard Public
 Software Repository for a period of no less than three years after the
 distribution of the object code.
-The obligation in this Section 2 applies regardless of whether the
+
+The obligations in this Section 2 apply to the original source files of
+the Software and any Modifications to those files. They do not apply to
+Independent Modules. This obligation applies regardless of whether the
 Software is distributed standalone, integrated into a larger work, or
 embedded in hardware.
 
