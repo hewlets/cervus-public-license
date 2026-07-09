@@ -1,5 +1,5 @@
 CERVUS PUBLIC LICENSE (CvPL)
-Version 1.1, July 2026
+Version 1.2, July 2026
 Copyright (c) VeoQeo, hewlets and Contributors.
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
@@ -29,12 +29,11 @@ execute the Software from its source code. For a Combined Work, it
 includes the Corresponding Source of the Software portion, but not the
 Independent Modules unless they are themselves Modifications.
 
-"Standard Public Software Repository" means a publicly accessible online
-code hosting service (such as GitHub, GitLab, or Bitbucket) that provides
-free, anonymous read access via standard version control protocols (e.g.,
-Git) and standard web protocols (HTTP/HTTPS). The repository must be
-accessible without authentication for the sole purpose of downloading the
-Corresponding Source.
+"Standard Public Software Repository" means any publicly accessible
+server or service that provides anonymous, free read access to source
+code via standard network protocols (such as HTTP/HTTPS or Git). Access
+must be available without authentication for the sole purpose of
+downloading the Corresponding Source.
 
 "Contribution" shall mean any original work of authorship, including any
 Modifications, that is intentionally submitted to the Licensor or
@@ -59,14 +58,21 @@ irrevocable (except as stated in Section 8) license to use, reproduce,
 prepare Modifications of, publicly display, publicly perform, distribute,
 and sublicense the Software.
 
-2. SOURCE FILE-LEVEL COPYLEFT OBLIGATIONS
-If You distribute or otherwise make available the Software or any
-Modifications, You must make the Corresponding Source of the Software and
-such Modifications available in a machine-readable format via Standard
-Public Software Repositories for a period of no less than three years
-following the distribution of the binaries. This obligation applies
-regardless of whether the Software is distributed standalone, integrated
-into a larger work, or embedded in hardware.
+2. SOURCE CODE AVAILABILITY
+If You distribute the Software in object code form, You must ensure that
+the Corresponding Source is made available to recipients by at least one
+of the following methods at Your choice:
+a) Accompany the object code with the Corresponding Source on a durable
+physical medium or via a download link provided with the object code; or
+b) Accompany the object code with a written offer, valid for at least
+three years, to give any recipient of the object code access to the
+Corresponding Source; or
+c) Make the Corresponding Source publicly available via a Standard Public
+Software Repository for a period of no less than three years after the
+distribution of the object code.
+The obligation in this Section 2 applies regardless of whether the
+Software is distributed standalone, integrated into a larger work, or
+embedded in hardware.
 
 3. EXPLICIT EXCEPTION FOR COMBINED WORKS AND INTERFACING
 a) Definition of Combined Work: For the purposes of this Section, a
@@ -86,12 +92,15 @@ c) Scope of Permitted Interfacing: This exception applies to, but is not
 limited to:
 * Interfacing via system calls (syscalls), Application Binary Interfaces
 (ABI), or Application Programming Interfaces (API).
-* Static linking, dynamic linking, or memory execution of Independent
-Modules alongside the Software within the same address space or system
-architecture.
+* Static or dynamic linking, loading, or execution of Independent Modules
+alongside the Software within the same address space or as separate
+processes.
 * The inclusion of unmodified header files from the Software into
 Independent Modules solely to enable compilation, data structure
 alignment, and structural interfacing.
+Irrespective of whether such linking, loading, or interfacing might
+otherwise be deemed to create a derivative work under copyright law, the
+permission granted in this Section 3(b) shall prevail.
 
 d) License Boundary and Multiple Licenses: The creation or distribution
 of a Combined Work does not extend the Source File-Level Copyleft
@@ -103,6 +112,14 @@ restrictions on the Software beyond those contained in this License. The
 boundary between the Software and Independent Modules shall be strictly
 observed.
 
+e) GPL Compatibility Bridge: Notwithstanding the foregoing, if You
+combine the Software with a work licensed under the GNU General Public
+License (GPL) and the combination would ordinarily require the Software
+to be available under the GPL, You may distribute the Combined Work under
+the terms of the GPL. This does not alter the license of the Software's
+individual source files, which remain available under this License, but
+the Combined Work as a whole may be licensed under the GPL.
+
 4. HARDWARE DEPLOYMENT AND DECOUPLING
 This License does not impose restrictions on the deployment or execution
 of the Software within embedded systems or hardware devices with
@@ -111,8 +128,8 @@ restricted modification access (e.g., secure boot environments).
 The Licensor explicitly waives any implied obligation requiring You to
 provide end-users with cryptographic keys, authorization codes, or
 hardware-specific methods necessary to install modified versions of the
-Software, provided that the Source File-Level Copyleft obligations for
-the Software's Corresponding Source are fully satisfied.
+Software, provided that the obligations for the Software's Corresponding
+Source under Section 2 are fully satisfied.
 
 5. BALANCED PATENT GRANT AND RETALIATION
 Subject to the terms and conditions of this License, each Contributor
