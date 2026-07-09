@@ -10,7 +10,6 @@
 
 CERVUS PUBLIC LICENSE (CvPL)
 Version 1.2, July 2026
-
 Copyright (c) VeoQeo, hewlets and Contributors.
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
@@ -58,10 +57,6 @@ of the Software's original source files.
 integration created by combining, interfacing, or linking the Software
 with Independent Modules.
 
-"Source File-Level Copyleft" means that any Modifications made directly
-to the existing source code files of the Software must be governed
-exclusively by this License.
-
 1. GRANT OF RIGHTS AND SUBLICENSING
 Subject to the terms and conditions of this License, the Licensor hereby
 grants You a worldwide, royalty-free, non-exclusive, perpetual,
@@ -93,11 +88,11 @@ independent software modules, applications, or hardware drivers
 ("Independent Modules") that are not Modifications of the Software's
 original source files.
 
-b) Grant of Exception: As an explicit exception to the Source File-Level
-Copyleft obligations in Section 2, the Licensor grants You permission to
-create, distribute, and execute Combined Works, and to link, compile, or
-interface the Software with Independent Modules, regardless of the
-license terms governing those Independent Modules.
+b) Grant of Exception: As an explicit exception to the obligations in
+Section 2, the Licensor grants You permission to create, distribute, and
+execute Combined Works, and to link, compile, or interface the Software
+with Independent Modules, regardless of the license terms governing those
+Independent Modules.
 
 c) Scope of Permitted Interfacing: This exception applies to, but is not
 limited to:
@@ -109,27 +104,30 @@ processes.
 * The inclusion of unmodified header files from the Software into
 Independent Modules solely to enable compilation, data structure
 alignment, and structural interfacing.
-Irrespective of whether such linking, loading, or interfacing might
-otherwise be deemed to create a derivative work under copyright law, the
-permission granted in this Section 3(b) shall prevail.
+To the extent that such linking, loading, or interfacing might be deemed
+to create a derivative work under applicable copyright law, the Licensor
+hereby grants an additional permission for the activities described in
+this Section 3(c), eliminating any conflict with this License for those
+specific acts.
 
 d) License Boundary and Multiple Licenses: The creation or distribution
-of a Combined Work does not extend the Source File-Level Copyleft
-obligations of this License to the Independent Modules. Independent
-Modules may be distributed under any license of Your choosing. If
-Independent Modules are subject to separate licenses, You must ensure
-that the terms of those licenses do not contradict or impose additional
-restrictions on the Software beyond those contained in this License. The
-boundary between the Software and Independent Modules shall be strictly
-observed.
+of a Combined Work does not extend the obligations of this License to the
+Independent Modules. Independent Modules may be distributed under any
+license of Your choosing. If Independent Modules are subject to separate
+licenses, You must ensure that the terms of those licenses do not
+contradict or impose additional restrictions on the Software beyond those
+contained in this License.
 
-e) GPL Compatibility Bridge: Notwithstanding the foregoing, if You
-combine the Software with a work licensed under the GNU General Public
-License (GPL) and the combination would ordinarily require the Software
-to be available under the GPL, You may distribute the Combined Work under
-the terms of the GPL. This does not alter the license of the Software's
-individual source files, which remain available under this License, but
-the Combined Work as a whole may be licensed under the GPL.
+e) Secondary License for GPL Compatibility: In addition to the rights
+granted above, if You create a Combined Work that incorporates code
+licensed under the GNU General Public License (or a license that the Free
+Software Foundation has certified as compatible with the GNU General
+Public License), and the terms of that GPL-licensed code require the
+Combined Work to be distributed under the GPL, You may distribute the
+Software under the terms of the GNU General Public License (version 3 or
+later) solely as part of that Combined Work. This permission does not
+alter the license of the Software when distributed separately; the
+Software remains available under this License.
 
 4. HARDWARE DEPLOYMENT AND DECOUPLING
 This License does not impose restrictions on the deployment or execution
