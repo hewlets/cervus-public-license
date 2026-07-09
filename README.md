@@ -10,7 +10,7 @@
 
 ### Cervus Public License (CvPL)
 **Version 1.0, June 2026**  
-*Copyright (c) [year] [nickname placeholder] and contributors.*
+*Copyright (c) VeoQeo, hewlets and contributors.*
 
 #### TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
