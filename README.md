@@ -2,7 +2,7 @@
   <img src="CVPL.svg" alt="CvPL Logo" width="300">
 </p>
 
-# CVPL - Cervus Public Licence
+# CvPL - Cervus Public Licence
 
 **Cervus Public License** (CvPL) is a specialized weak copyleft license designed specifically for the ecosystem of the Cervus OS operating system.
 
